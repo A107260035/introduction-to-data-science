@@ -5,7 +5,7 @@
     "colab": {
       "name": "week2_A107260035_李旻翰.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyMDAqQrRyFvNOKBVxfVYhS4",
+      "authorship_tag": "ABX9TyNs9RDNPbLoJhITZBifmkR6",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -27,68 +27,38 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "-98167JbWfzg",
+        "id": "e3-e7a6Hik_g",
         "colab_type": "code",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 34
+          "height": 118
         },
-        "outputId": "25c69484-17d9-4a64-af85-b109a9c17f8b"
+        "outputId": "6a787ce9-2360-42de-cca5-5733f7002d86"
       },
       "source": [
-        "print(\"Hello World\")"
+        "movie_time = 181\n",
+        "movie_rating = 8.5\n",
+        "movie_title = \"Avengers: Endgame\"\n",
+        "\n",
+        "print(movie_time) \n",
+        "print(movie_rating) \n",
+        "print(movie_title)\n",
+        "\n",
+        "print(type(movie_time)) \n",
+        "print(type(movie_rating)) \n",
+        "print(type(movie_title))"
       ],
-      "execution_count": 1,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "stream",
           "text": [
-            "Hello World\n"
-          ],
-          "name": "stdout"
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "id": "DYFZO9xcdOFR",
-        "colab_type": "code",
-        "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 370
-        },
-        "outputId": "95651118-dd2d-4c52-fe24-762afae5a01f"
-      },
-      "source": [
-        "import this"
-      ],
-      "execution_count": 2,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "text": [
-            "The Zen of Python, by Tim Peters\n",
-            "\n",
-            "Beautiful is better than ugly.\n",
-            "Explicit is better than implicit.\n",
-            "Simple is better than complex.\n",
-            "Complex is better than complicated.\n",
-            "Flat is better than nested.\n",
-            "Sparse is better than dense.\n",
-            "Readability counts.\n",
-            "Special cases aren't special enough to break the rules.\n",
-            "Although practicality beats purity.\n",
-            "Errors should never pass silently.\n",
-            "Unless explicitly silenced.\n",
-            "In the face of ambiguity, refuse the temptation to guess.\n",
-            "There should be one-- and preferably only one --obvious way to do it.\n",
-            "Although that way may not be obvious at first unless you're Dutch.\n",
-            "Now is better than never.\n",
-            "Although never is often better than *right* now.\n",
-            "If the implementation is hard to explain, it's a bad idea.\n",
-            "If the implementation is easy to explain, it may be a good idea.\n",
-            "Namespaces are one honking great idea -- let's do more of those!\n"
+            "181\n",
+            "8.5\n",
+            "Avengers: Endgame\n",
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'str'>\n"
           ],
           "name": "stdout"
         }
